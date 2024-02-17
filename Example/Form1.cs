@@ -42,7 +42,7 @@ namespace TestLidar
             {
                 foreach (var p in frame.points)
                 {
-                    var nextP = Move(center, p.angle, p.distance/10);
+                    var nextP = Move(center, p.angle, p.distance / 10);
                     // Disegna un punto rosso nella posizione (10, 10)
                     g.DrawEllipse(Pens.Red, nextP.X, nextP.Y, 5, 5);
                 }

@@ -29,27 +29,19 @@
         private void InitializeComponent()
         {
             button1 = new Button();
-            textBox1 = new TextBox();
             pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(154, 12);
+            button1.Location = new Point(12, 12);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Start";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(23, 14);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 1;
             // 
             // pictureBox1
             // 
@@ -65,20 +57,17 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1088, 660);
             Controls.Add(pictureBox1);
-            Controls.Add(textBox1);
             Controls.Add(button1);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
-        private TextBox textBox1;
         private PictureBox pictureBox1;
     }
 }

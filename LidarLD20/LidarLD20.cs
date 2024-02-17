@@ -74,7 +74,7 @@ namespace ClassLibrary1
                                 else
                                 {
                                     data.Clear();
-                                    return;
+                                    continue;
                                 }
                                 break;
                             }
@@ -90,7 +90,7 @@ namespace ClassLibrary1
                                 {
                                     data.Clear();
                                     status = 0;
-                                    return;
+                                    continue;
                                 }
                                 break;
                             }

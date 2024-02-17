@@ -6,6 +6,6 @@
         public static int LenghtPack = 47;
         public static byte HEADER = 0x54;
         public static byte VERLEN = 0x2c;
-        public static int CorrectionAngle = -10;
+        public static int CorrectionAngle = 0;
     }
 }
